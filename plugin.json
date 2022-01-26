@@ -1,0 +1,65 @@
+{
+  "slug": "MCXIV_Mathobiz",
+  "name": "Mathobiz",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
+  "brand": "MCXIV",
+  "author": "Minecraftian14",
+  "authorEmail": "mcxiv14@gmail.com",
+  "authorUrl": "https://github.com/Minecraftian14",
+  "pluginUrl": "http://mcxiv.in/Mathobiz/",
+  "manualUrl": "http://mcxiv.in/Mathobiz/",
+  "sourceUrl": "https://github.com/Minecraftian14/Mathobiz",
+  "donateUrl": "",
+  "changelogUrl": "",
+  "modules": [
+    {
+      "slug": "MCXIV_Math_1",
+      "name": "Math_1",
+      "description": "Simple Binary Operators Mathematics",
+      "tags": [
+        "Maths Mathematics"
+      ]
+    },
+    {
+      "slug": "MCXIV_Math_2",
+      "name": "Math_2",
+      "description": "Binary Operators Mathematics",
+      "tags": [
+        "Maths Mathematics"
+      ]
+    },
+    {
+      "slug": "MCXIV_Math_3",
+      "name": "Math_3",
+      "description": "Advanced Binary Operators Mathematics",
+      "tags": [
+        "Maths Mathematics"
+      ]
+    },
+    {
+      "slug": "MCXIV_Math_4",
+      "name": "Math_4",
+      "description": "Simple Unary Operators Mathematics",
+      "tags": [
+        "Maths Mathematics"
+      ]
+    },
+    {
+      "slug": "MCXIV_Math_5",
+      "name": "Math_5",
+      "description": "Unary Operators Mathematics",
+      "tags": [
+        "Maths Mathematics"
+      ]
+    },
+    {
+      "slug": "MCXIV_Math_6",
+      "name": "Math_6",
+      "description": "Complex Unary Operators Mathematics",
+      "tags": [
+        "Maths Mathematics"
+      ]
+    }
+  ]
+}

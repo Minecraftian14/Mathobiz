@@ -1,0 +1,13 @@
+/.idea
+/cmake-build-debug
+/CMakeLists.txt
+
+*.bak
+newModuleCommand.txt
+
+/build
+/dist
+/plugin.so
+/plugin.dylib
+/plugin.dll
+.DS_Store
