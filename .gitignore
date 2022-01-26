@@ -4,6 +4,8 @@
 
 *.bak
 newModuleCommand.txt
+res/Chords With Text.svg
+res/Cmplx_1.svg
 
 /build
 /dist

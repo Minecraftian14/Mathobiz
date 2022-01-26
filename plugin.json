@@ -60,6 +60,48 @@
       "tags": [
         "Maths Mathematics"
       ]
+    },
+    {
+      "slug": "MCXIV_Logic_1",
+      "name": "Logic_1",
+      "description": "Simple Logical Operations",
+      "tags": []
+    },
+    {
+      "slug": "MCXIV_Logic_2",
+      "name": "Logic_2",
+      "description": "Logical Operations",
+      "tags": []
+    },
+    {
+      "slug": "MCXIV_Logic_3",
+      "name": "Logic_3",
+      "description": "Complex Logical Operations",
+      "tags": []
+    },
+    {
+      "slug": "MCXIV_ARange",
+      "name": "ARange",
+      "description": "Automatic Range Enforcer",
+      "tags": []
+    },
+    {
+      "slug": "MCXIV_Drag",
+      "name": "Drag",
+      "description": "Interpolator",
+      "tags": []
+    },
+    {
+      "slug": "MCXIV_Map",
+      "name": "Map",
+      "description": "Map a value in a given range",
+      "tags": []
+    },
+    {
+      "slug": "MCXIV_Steps",
+      "name": "Steps",
+      "description": "Snap value to nearest stair step",
+      "tags": []
     }
   ]
 }
