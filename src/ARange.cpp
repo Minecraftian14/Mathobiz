@@ -3,8 +3,8 @@
 
 struct MCXIV_ARange : Module {
 
-    float minA = 0, maxA = 1;
-    float minB = 0, maxB = 1;
+    float minA = -1, maxA = 1;
+    float minB = -1, maxB = 1;
 
     enum ParamId {
         PARAMS_LEN
@@ -39,11 +39,11 @@ struct MCXIV_ARange : Module {
         outputs[OUT_A_OUTPUT].setVoltage(manipulateRange(&minA, &maxA, inputs[IN_A_INPUT].getVoltage()));
         outputs[OUT_B_OUTPUT].setVoltage(manipulateRange(&minB, &maxB, inputs[IN_B_INPUT].getVoltage()));
         if (inputs[IN_ARES_INPUT].getVoltage() > 0) {
-            minA = 0;
+            minA = -1;
             maxA = 1;
         }
         if (inputs[IN_BRES_INPUT].getVoltage() > 0) {
-            minB = 0;
+            minB = -1;
             maxB = 1;
         }
     }
@@ -51,7 +51,7 @@ struct MCXIV_ARange : Module {
     static float manipulateRange(float *min, float *max, float val) {
         if (val < *min) *min = val;
         if (val > *max) *max = val;
-        return (val - *min) / (*max - *min);
+        return (val - *min) / (*max - *min) * 2 - 1;
     }
 
 };
